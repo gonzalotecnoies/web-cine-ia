@@ -1,0 +1,148 @@
+/* Corpo da páxina */
+body {
+  background-color: #f0f8ff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin: 20px;
+}
+
+/* Cabeceira */
+#cabeceira {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px gray;
+}
+
+h1 {
+  text-shadow: 2px 2px gray;
+}
+
+/* Menú */
+#menu {
+  background-color: #cce6ff;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #004080;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Contido */
+#contido {
+  margin: 20px 0;
+  background-color: white;
+  padding: 15px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px gray;
+}
+
+h2 {
+  color: #004080;
+  border-bottom: 2px solid #cce6ff;
+}
+
+/* Táboas */
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  border: 2px solid #004080;
+}
+
+th, td {
+  border: 1px solid #004080;
+  padding: 8px;
+}
+
+th {
+  background-color: #004080;
+  color: white;
+}
+
+/* Pé de páxina */
+#pe {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* Ligazóns */
+a {
+  color: darkred;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+/* Formulario */
+form {
+  background-color: white;
+  padding: 15px;
+  border: 2px solid #004080;
+  border-radius: 10px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #004080;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* ===== Melloras propostas coa IA e revisadas ===== */
+
+/* Ancho máximo e texto máis lexible */
+body {
+  max-width: 960px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+/* Cabeceira cun degradado */
+#cabeceira {
+  background: linear-gradient(135deg, #004080, #1a73c9);
+}
+
+/* Botóns do menú */
+#menu a {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+#menu a:hover {
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+}
+
+/* Imaxes con bordos redondeados e sombra */
+img {
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+/* Filas alternas na táboa */
+tr:nth-child(even) {
+  background-color: #eef5ff;
+}
+
+/* Campo do formulario activo */
+input:focus, select:focus {
+  outline: 2px solid #1a73c9;
+}

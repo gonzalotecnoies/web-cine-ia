@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div id="cabeceira">
+  <h1>Inscrición no cineclube</h1>
+</div>
+<div id="contido">
+  <form>
+    <p>Alcume: <input type="text" name="alcume" size="30" required></p>
+    <p>Correo electrónico: <input type="email" name="correo" size="30"></p>
+    <p>Contrasinal: <input type="password" name="contrasinal" minlength="8" required></p>
+    <p>Data da primeira sesión: <input type="date" name="data_sesion"></p>
+    <p>Nota da última película que viches: <input type="number" name="nota" min="0" max="10"></p>
+    <p>Tipo de socio:<br>
+      <input type="radio" name="socio" value="novo"> Novo<br>
+      <input type="radio" name="socio" value="renovacion"> Renovación<br>
+      <input type="radio" name="socio" value="convidado"> Convidado</p>
+    <p>Xénero favorito:
+      <select name="xenero">
+        <option>Comedia</option>
+        <option>Ciencia ficción</option>
+        <option>Terror</option>
+        <option>Animación</option>
+      </select></p>
+    <p>Plataformas que usas para ver cine:<br>
+      <input type="checkbox" name="plataformas" value="cine"> Sala de cine<br>
+      <input type="checkbox" name="plataformas" value="tv"> Televisión<br>
+      <input type="checkbox" name="plataformas" value="streaming"> Plataformas de streaming</p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </form>
+  <p><a href="index.html">Volver ao inicio</a></p>
+</div>
+<div id="pe">
+  <p>Algúns estilos e textos desta web fixéronse con axuda de IA e foron revisados por min.</p>
+</div>
+</body>
+</html>
